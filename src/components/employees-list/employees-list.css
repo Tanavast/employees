@@ -1,0 +1,48 @@
+.container {
+    width: 50%;
+    min-height: 100%;
+    position: relative;
+    overflow-y: hidden;
+}
+.container:nth-child(odd) {
+    border-right: 2px solid #000;
+}
+.title {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    height: 40px;
+}
+.employees-container {
+}
+.user-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-container span{
+    user-select: none;
+}
+.alphabet-column {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+.alphabet-column:first-child {
+    margin-left: 20px;
+}
+.content-section {
+    display: flex;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 42px);
+}
+.empty {
+    white-space: nowrap;
+}
+.active h3{
+    color: #3FBF7F;
+}
