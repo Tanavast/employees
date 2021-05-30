@@ -1,0 +1,34 @@
+.empty-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.birthday-container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+}
+.months-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+}
+.months-row {
+    white-space: nowrap;
+    padding: 10px 10px;
+
+}
+.months-row:not(:last-child) {
+    border-bottom: 2px solid #000;
+}
+/*.months-column h1 {*/
+/*    border-bottom: 2px solid #000;*/
+/*}*/
+.birthday-item {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
