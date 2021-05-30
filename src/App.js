@@ -1,5 +1,5 @@
-import Employees from './components/employees-list';
-import Birthdays from './components/employees-birthdays';
+import Employees from './components/employees-list/employees-list';
+import Birthdays from './components/employees-birthdays/employees-birthdays';
 import './App.css';
 
 function App() {
